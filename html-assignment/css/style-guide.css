@@ -1,0 +1,94 @@
+body {
+font-family: Arial, sans-serif;
+font-size: 18px;
+line-height: 1.6;
+margin: 0;
+background: #ffffff;
+color: #222222;
+}
+
+header {
+background-color: #F5F5DC;
+padding: 40px;
+text-align: center;
+border-bottom: 4px solid #2A9DF4;
+}
+
+header h1 {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 36px;
+color: #2A9DF4;
+margin: 0;
+}
+
+main {
+max-width: 900px;
+margin: 0 auto;
+padding: 20px;
+}
+
+section {
+margin-bottom: 50px;
+padding: 20px;
+border: 1px solid #CCCCCC;
+border-radius: 8px;
+}
+
+h1 {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 36px;
+}
+
+h2 {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 28px;
+color: #222222;
+border-bottom: 2px solid #2A9DF4;
+padding-bottom: 10px;
+}
+
+h3 {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 22px;
+}
+
+.color-grid {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.color-swatch {
+text-align: center;
+}
+
+.swatch {
+width: 120px;
+height: 80px;
+border-radius: 8px;
+border: 1px solid #CCCCCC;
+}
+
+ul {
+list-style-type: square;
+}
+
+.btn {
+display: inline-block;
+background-color: #2A9DF4;
+color: white;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 5px;
+border: 2px solid #2A9DF4;
+}
+
+.btn:hover {
+background-color: #222222;
+}
+
+.link {
+color: #2A9DF4;
+text-decoration: underline;
+margin-left: 15px;
+}
